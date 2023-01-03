@@ -6,7 +6,7 @@ import useStyles from "./styles";
 const Dashboard = ({ loading, linkedAccounts, getAllLinkedAccount }) => {
   const classes = useStyles();
   useEffect(() => {
-    if (linkedAccounts?.length < 0) {
+    if (!linkedAccounts && linkedAccounts?.length < 0) {
       getAllLinkedAccount();
     }
     console.log(
