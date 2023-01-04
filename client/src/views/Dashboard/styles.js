@@ -4,5 +4,6 @@ export default makeStyles((theme) => ({
   root: {
     maxWidth: "90%",
     margin: "0 auto",
+    backgroundColor: theme.palette.background.paper,
   },
 }));

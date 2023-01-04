@@ -2,7 +2,7 @@ import { ActionType } from "../actions/accounts";
 
 const initState = {
   loading: false,
-  allAccounts: null,
+  allAccounts: [],
 };
 
 // eslint-disable-next-line import/no-anonymous-default-export
@@ -12,7 +12,7 @@ export default (state = initState, action) => {
       return {
         ...state,
         loading: true,
-        allAccounts: null,
+        allAccounts: [],
       };
     case ActionType.ACCOUNTS_SUCCESS:
       return {
@@ -24,7 +24,7 @@ export default (state = initState, action) => {
       return {
         ...state,
         loading: false,
-        allAccounts: null,
+        allAccounts: [],
       };
     default:
       return state;

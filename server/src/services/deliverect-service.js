@@ -89,6 +89,150 @@ class DeliverectService {
               },
             },
           },
+          {
+            _id: "5f1***131",
+            name: "Generic account 1",
+            accountType: 1,
+            currency: 1,
+            posSystem: 10000,
+            _updated: "2021-05-18T08:02:16.000000Z",
+            _created: "2020-07-24T07:36:49.000000Z",
+            _deleted: false,
+            _etag: "004a4df4bcce3cae83fd530c4a502278633ffd42",
+            locations: ["5f1***133", "606***b86", "606***555"],
+            accounts: [],
+            brands: [
+              {
+                name: "Generic account 1",
+                brandId: "606***6c5",
+              },
+            ],
+            deliverectVersion: "2.0",
+            featureFlags: {
+              menuLocationOverrides: false,
+              autoApply: false,
+              pullAvailabilities: false,
+              combinedProductsPage: false,
+              enableSelfOnboarding: false,
+              reportsV2: false,
+              enableDiscounts: false,
+              enableDelivery: false,
+            },
+            region: "EU",
+            settings: {
+              taxExcl: false,
+            },
+            whitelabel: "deliverect",
+            users: ["607***ca68"],
+            reportingEndpoints: [
+              {
+                endpoint: "https://reporting-endpoint.com/reporting/newOrder",
+                statusTrigger: [20],
+                endpointType: 10,
+              },
+            ],
+            _links: {
+              self: {
+                title: "accounts",
+                href: "accounts/5f1***131",
+              },
+              related: {
+                users: [
+                  {
+                    title: "users",
+                    href: "users/607***a68",
+                  },
+                ],
+                locations: [
+                  {
+                    title: "Locations",
+                    href: "locations/5f1***133",
+                  },
+                  {
+                    title: "Locations",
+                    href: "locations/606***b86",
+                  },
+                  {
+                    title: "Locations",
+                    href: "locations/606***555",
+                  },
+                ],
+                accounts: [],
+              },
+            },
+          },
+          {
+            _id: "5f1***131",
+            name: "Generic account 2",
+            accountType: 1,
+            currency: 1,
+            posSystem: 10000,
+            _updated: "2021-05-18T08:02:16.000000Z",
+            _created: "2020-07-24T07:36:49.000000Z",
+            _deleted: false,
+            _etag: "004a4df4bcce3cae83fd530c4a502278633ffd42",
+            locations: ["5f1***133", "606***b86", "606***555"],
+            accounts: [],
+            brands: [
+              {
+                name: "Generic account 2",
+                brandId: "606***6c5",
+              },
+            ],
+            deliverectVersion: "2.0",
+            featureFlags: {
+              menuLocationOverrides: false,
+              autoApply: false,
+              pullAvailabilities: false,
+              combinedProductsPage: false,
+              enableSelfOnboarding: false,
+              reportsV2: false,
+              enableDiscounts: false,
+              enableDelivery: false,
+            },
+            region: "EU",
+            settings: {
+              taxExcl: false,
+            },
+            whitelabel: "deliverect",
+            users: ["607***ca68"],
+            reportingEndpoints: [
+              {
+                endpoint: "https://reporting-endpoint.com/reporting/newOrder",
+                statusTrigger: [20],
+                endpointType: 10,
+              },
+            ],
+            _links: {
+              self: {
+                title: "accounts",
+                href: "accounts/5f1***131",
+              },
+              related: {
+                users: [
+                  {
+                    title: "users",
+                    href: "users/607***a68",
+                  },
+                ],
+                locations: [
+                  {
+                    title: "Locations",
+                    href: "locations/5f1***133",
+                  },
+                  {
+                    title: "Locations",
+                    href: "locations/606***b86",
+                  },
+                  {
+                    title: "Locations",
+                    href: "locations/606***555",
+                  },
+                ],
+                accounts: [],
+              },
+            },
+          },
         ],
         _links: {
           parent: {
